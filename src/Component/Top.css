@@ -1,0 +1,51 @@
+.top{
+    background:linear-gradient(to right,#1E80F4, #02B960);
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    
+  }
+  .left:hover .label{
+    cursor: pointer;
+  }
+  .right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 0px;
+    /* background-color: #02B960; */
+    color: white;
+    
+  }
+   .top-img1, .top-img2, .top-img3, .top-img4{
+    /* display: flex; */
+    /* background-color: #1E80F4; */
+    width: 100;
+    padding: 8px 15px;
+    
+  }
+  .top-img1:hover{
+    background-color: #02B960;
+    cursor: pointer;
+  }
+  .top-img2:hover{
+    background-color: #02B960;
+    cursor: pointer;
+  }
+  .top-img3:hover{
+    background-color: #02B960;
+    cursor: pointer;
+  }
+  .top-img4:hover{
+    background-color: #02B960;
+    cursor: pointer;
+  }
