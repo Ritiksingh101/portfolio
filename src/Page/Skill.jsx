@@ -2,7 +2,7 @@ import React from "react";
 
 function Skill() {
   return (
-    <div className="flex flex-col items-center p-6 sm:p-8 md:p-12 ritik">
+    <div className="flex flex-col items-center p-6 sm:p-8 md:p-12 ritik" id="skill">
       {/* Section Header */}
       <h2 className="text-gray-500 text-[14px] sm:text-[16px] mb-2">
         Explore My

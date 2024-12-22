@@ -2,7 +2,10 @@ import React, { useState } from 'react'
 import './Header.css'
 
 function Header() {
-
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    
+  };
 
    const [show, setShow] =useState(false)
 
@@ -15,10 +18,10 @@ function Header() {
     </div>
     <div className='header-component'>
        
-       <label className='home'>About</label>
-       <label className='home' >Experience</label>
-       <label className='home'>Projects</label>
-       <label className='home'>
+       <label  className='home cursor-pointer' onClick={() => scrollToSection("about")} >About</label>
+       <label  className='home cursor-pointer' onClick={() => scrollToSection("skill")}  >Experience</label>
+       <label  className='home cursor-pointer' onClick={() => scrollToSection("about")} >Projects</label>
+       <label  className='home cursor-pointer' onClick={() => scrollToSection("contect")} >
        Contact</label>
        
     </div> 

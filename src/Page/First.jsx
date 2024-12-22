@@ -1,6 +1,8 @@
 import React from "react";
 import ritik from "../Photo/ritk.jpeg";
 import resume from "../Photo/pdf.jpg"
+import Typedcomponent from '../Component/Autotype.jsx'
+
 
 function First() {
   function myFunction() {
@@ -23,14 +25,19 @@ function First() {
 
         {/* Text and Buttons */}
         <div className="w-full sm:w-[50%] md:w-[30%] h-auto flex flex-col justify-center items-center gap-4 text-center">
-          <label className="text-[14px] sm:text-[16px] font-sans font-semibold text-gray-600">
+          <label className="text-[14px] sm:text-[16px] font-sans font-semibold text-gray-400">
             Hello, I'M
           </label>
           <label className="text-[28px] sm:text-[36px] md:text-[48px] font-bold font-serif">
             Ritik Singh
           </label>
-          <label className="text-[16px] sm:text-[20px] md:text-[28px] text-gray-700">
-            Frontend Developer
+          <label className="text-[16px] sm:text-[20px] md:text-[28px] text-gray-400">
+            <Typedcomponent
+             strings={["Frontend Devloper", "Web Designing", "UI/UX"]}
+             typeSpeed={80}
+             backSpeed={50}
+             loop={true}
+            />
           </label>
 
           {/* Buttons */}

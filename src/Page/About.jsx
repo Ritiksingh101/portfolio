@@ -1,28 +1,10 @@
 import React from "react";
 import ritik from "../Photo/ritk.jpeg";
-import Typed from "typed.js";
+import Typedcomponent from "../Component/Autotype.jsx";
 
 function About() {
-   
-  const el = React.useRef(null);
-
-  React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['<i>BCA</i> ','Acropolis Institute of ManagementStudies & Research, Indore (2021-2024)','MCA','Patel Group Of Institue Indore(2024-2026)'],
-      typeSpeed: 50,
-      backSpeed:50,
-      loop :true
-    });
-
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      typed.destroy();
-    };
-  }, []);
-    
-
   return (
-    <div className="flex flex-col items-center p-4 sm:p-8 md:p-12 ritik">
+    <div className="flex flex-col items-center p-4 sm:p-8 md:p-12 ritik" id="about">
       {/* About Me Header */}
       <h2 className="text-center text-gray-400 text-[14px] sm:text-[16px]">
         Get To Know More
@@ -50,7 +32,7 @@ function About() {
               <span className="text-2xl">🏅</span>
             </div>
             <h3 className="font-bold text-xl mb-2">Experience</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-400">
               4+ month Internship <br />
               Frontend Development
             </p>
@@ -62,33 +44,33 @@ function About() {
               <span className="text-2xl">👥</span>
             </div>
             <h3 className="font-bold text-xl mb-2">Education</h3>
-            <p className="text-gray-600 sliding">
-            
-              <span ref={el} />            </p>
+            <p className="text-gray-400 sliding">
+              <Typedcomponent
+                strings={[
+                  "<i>BCA</i> ",
+                  "Acropolis Institute of ManagementStudies & Research, Indore (2021-2024)",
+                  "MCA",
+                  "Patel Group Of Institue Indore(2024-2026)",
+                ]}
+                typeSpeed={70}
+                backSpeed={70}
+                loop={true}
+              ></Typedcomponent>{" "}
+            </p>
           </div>
         </div>
       </div>
 
       {/* Description */}
-      <div className="mt-8 text-center text-gray-700 px-4 md:px-8 lg:px-24 leading-relaxed">
+      <div className="mt-8 text-center text-gray-400 px-4 md:px-8 lg:px-24 leading-relaxed">
         <p>
-          I Am A passionate And Tech-savvy Fresher with A strong Interest In The
-          IT industry. I Am A recent 3rd Year student with A BCA (Bachelor Of
-          Computer Application) And I Am Eager To kickstart My career In IT
-          field. I Am A Great Team Player and Thrive In collaborative
-          Environments where I can contribute My skills And Learn From Others. I
-          Am Also A Quick Learner And Adopt Easily To New Technologies And
-          Framework. Thankyou!!
+          <Typedcomponent
+            strings={[
+              "  Enthusiastic and detail-oriented Frontend Web Developer. Proficient in HTML, CSS, JavaScript, and modern frameworks suchas React.js. Passionate about building responsive, accessible, and aesthetically pleasing web interfaces. Adept at collaborating with cross-functional teams to deliver high-quality digital experiences.",
+            ]}
+          />
         </p>
       </div>
-
-
-
-
-
-
-
-      
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Contect() {
   return (
-    <div>
+    <div id="contect">
       <div className="md:h-[40vh]  flex justify-center items-center flex-col ritik">
         <label className="text-[20px]">Get in touch</label>
         <div className="flex border-2 border-white m-6 p-10 rounded-[20px] justify-center items-center gap-3">

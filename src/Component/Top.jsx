@@ -9,7 +9,9 @@ function Top() {
           <label> <i class="fa fa-phone" aria-hidden="true"></i>
             +91 6232610873</label>
           <label> <i class="fa fa-telegram" aria-hidden="true"></i>
-            ritiksingh.dx@email.com</label>
+            ritiksingh.dx@email.com
+             
+            </label>
         </div>
         <div className='right'>
           <label><i class="fa fa-facebook top-img1" aria-hidden="true"></i></label>
