@@ -56,3 +56,10 @@
     width: 100%;
     
   }
+
+
+  @media (max-width: 768px) {
+  .header-component {
+    display: none; /* Hide menu items on small screens */
+  }
+ }
