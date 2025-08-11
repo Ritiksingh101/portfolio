@@ -41,6 +41,34 @@ function Skill() {
           </div>
         </div>
       </div>
+      <br />
+      {/*..--------------------------------- project..----------------------------  */}
+
+              <h2 className="text-gray-500 text-[14px] sm:text-[16px] mb-2">
+        Explore My
+      </h2>
+      <h1 className="text-3xl sm:text-4xl font-bold mb-8">Project's</h1>
+          <div className="border border-gray-300 rounded-[20px] p-6 w-full lg:w-[40%] shadow-md">
+        
+          <div className="grid grid-cols-2 gap-y-4">
+
+            <a href="https://showprojectto.netlify.app/" target="new"> 
+               <Skilllavel title="Sound Healing "/>
+            </a>
+            <a href="https://vsm-live-5po1.vercel.app/" target="new"> 
+               <Skilllavel title="Ved Science and Maths "/>
+            </a>
+            <a href="https://panditjiweb.vercel.app/" target="new"> 
+               <Skilllavel title="Pandit ji project "/>
+            </a>
+            <a href="https://nova-project-ivory.vercel.app/" target="new"> 
+               <Skilllavel title="Nova Clone "/>
+            </a>
+            
+         
+           
+          </div>
+        </div>
     </div>
   );
 }
