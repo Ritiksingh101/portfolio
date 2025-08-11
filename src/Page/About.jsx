@@ -4,7 +4,10 @@ import Typedcomponent from "../Component/Autotype.jsx";
 
 function About() {
   return (
-    <div className="flex flex-col items-center p-4 sm:p-8 md:p-12 ritik" id="about">
+    <div
+      className="flex flex-col items-center p-4 sm:p-8 md:p-12 ritik"
+      id="about"
+    >
       {/* About Me Header */}
       <h2 className="text-center text-gray-400 text-[14px] sm:text-[16px]">
         Get To Know More
@@ -33,13 +36,17 @@ function About() {
             </div>
             <h3 className="font-bold text-xl mb-2">Experience</h3>
             <p className="text-gray-400">
-              4+ month Internship <br />
-              Frontend Development
+              Software & Frontend Developer with 6 months of internship
+              experience at Cysco, Indore and 4 months of professional training
+              in Frontend Web Development from Coding Shaala. Skilled in HTML5,
+              CSS3, JavaScript (ES6+), React.js, Tailwind CSS, and API
+              integration{" "}
             </p>
+            <a href="https://www.cysco.in/" target="new">Click here</a>
           </div>
 
           {/* Education Card */}
-          <div className="border border-gray-300 rounded-lg p-6 w-full sm:w-[45%] text-center box">
+          <div className="border border-gray-300 rounded-lg p-6 w-full h-[42vh] sm:w-[45%] text-center items-center box">
             <div className="flex justify-center items-center mb-4">
               <span className="text-2xl">👥</span>
             </div>

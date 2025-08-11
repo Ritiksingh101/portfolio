@@ -14,7 +14,7 @@ function Skill() {
         {/* Full-Stack Development */}
         <div className="border border-gray-300 rounded-[20px] p-6 lg:w-[40%] w-full shadow-md">
           <h3 className="text-center font-semibold text-2xl mb-4">
-            Full-stack Development
+            frontend Developer
           </h3>
           <div className="grid lg:grid-cols-2 grid-cols-3 gap-y-4">
             {/* Skill Items */}
@@ -37,6 +37,7 @@ function Skill() {
             <Skilllavel title="Git, GitHub" level="Expert" />
             <Skilllavel title="UI/UX" level="Skilled" />
             <Skilllavel title="Postman" level="Skilled" />
+            <Skilllavel title="WordPress" level="Skilled" />
           </div>
         </div>
       </div>
